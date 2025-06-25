@@ -2174,12 +2174,12 @@ void handleAboutPage() {
   tft.setTextFont(2);
   
   const char* title = "[About This Project]";
-  tft.setCursor(10, 90);
+  tft.setCursor(10, 80);
   tft.println(title);
   
   int lineHeight = 30;
   int text_x = 10;
-  int text_y = 130;
+  int text_y = 110;
   tft.setCursor(text_x, text_y);
   tft.println("- DIY ESP32-DIV");
   text_y += lineHeight;
