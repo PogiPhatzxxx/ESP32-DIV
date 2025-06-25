@@ -796,7 +796,7 @@ BLEAdvertisementData getOAdvertisementData() {
 
 void sourappleSetup() {
 
-  tft.setRotation(2);
+  tft.setRotation(0);
   tft.setTextSize(1);
   tft.fillScreen(TFT_BLACK);
 
@@ -1077,7 +1077,7 @@ void checkModeChange() {
 void blejamSetup() {
 
   tft.fillScreen(TFT_BLACK);
-  tft.setRotation(2);
+  tft.setRotation(0);
 
   setupTouchscreen();
 
@@ -1419,7 +1419,7 @@ void runUI() {
 
 void bleScanSetup() {
 
-  tft.setRotation(2);
+  tft.setRotation(0);
   tft.fillScreen(TFT_BLACK);
   tft.setTextColor(TFT_WHITE, TFT_BLACK);
   tft.setTextSize(1);
@@ -1833,7 +1833,7 @@ void display() {
 
 void scannerSetup() {
 
-  tft.setRotation(2);
+  tft.setRotation(0);
   tft.fillScreen(TFT_BLACK);
 
   float currentBatteryVoltage = readBatteryVoltage();
@@ -2163,7 +2163,7 @@ void checkModeChange() {
 void prokillSetup() {
 
   tft.fillScreen(TFT_BLACK);
-  tft.setRotation(2);
+  tft.setRotation(0);
   
   float currentBatteryVoltage = readBatteryVoltage();
   drawStatusBar(currentBatteryVoltage, false);
