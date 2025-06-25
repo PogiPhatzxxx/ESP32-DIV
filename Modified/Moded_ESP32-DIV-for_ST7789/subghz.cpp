@@ -600,7 +600,7 @@ void ReplayAttackSetup() {
   Serial.begin(115200);
   
   tft.fillScreen(TFT_BLACK); 
-  tft.setRotation(2);
+  tft.setRotation(0);
 
   setupTouchscreen();
 
@@ -1039,7 +1039,7 @@ void saveSetup() {
     pcf.pinMode(BTN_DOWN, INPUT_PULLUP);
     pcf.pinMode(BTN_UP, INPUT_PULLUP);
 
-    tft.setRotation(2);
+    tft.setRotation(0);
     tft.fillScreen(TFT_BLACK);
     tft.setTextColor(TFT_WHITE);
 
@@ -1351,7 +1351,7 @@ void subjammerSetup() {
     pcf.pinMode(BTN_UP, INPUT_PULLUP);
     delay(100);
 
-    tft.setRotation(2); 
+    tft.setRotation(0); 
     tft.fillScreen(TFT_BLACK);
 
     setupTouchscreen();
