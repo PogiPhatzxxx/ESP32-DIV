@@ -2428,7 +2428,7 @@ void setup() {
   Serial.begin(115200);
   
   tft.init();
-  tft.setRotation(2);
+  tft.setRotation(0);
   tft.fillScreen(TFT_BLACK);
 
   setupTouchscreen();
