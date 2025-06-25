@@ -1,0 +1,88 @@
+ESP32 DIV PINS
+
+
+
+DISPLAY PIN	-	ESP32 PIN
+---------------------------------
+VCC		-	3v3
+GND		-	GND
+CS		-	GPIO15
+RESET		-	EN
+DC		-	GPIO2
+SDI(MOSI)	- 	GPIO13
+SCK		-	GPIO14
+LED		-	3v3
+SDO(MISO)	-	GPIO12
+------------- Touch -------------
+T_CLK		-	GPIO25
+T_CS		-	GPIO33
+T_DIN		-	GPIO32
+T_DO		-	GPIO35
+T_IRQ		-	GPIO34
+------------ SD Card ------------
+SD_CS		-	GPIO5
+SD_MOSI		-	GPIO23
+SD_MISO		-	GPIO19
+SD_SCK		-	GPIO18
+_________________________________
+
+PCF8574T PIN	-	ESP32 PIN
+---------------------------------
+VCC		-	5V
+GND		-	GND
+SDA		-	GPIO21
+SCL		-	GPIO22
+_________________________________
+
+BUTTON PIN	-	PCF8574T PIN
+---------------------------------
+UP     		-	P6
+DOWN   		-	P3
+LEFT   		-	P4
+RIGHT 		-	P5
+SELECT 		-	P7
+_________________________________
+
+CC1101 PIN 	-	ESP32 PIN
+---------------------------------
+GND		-	GND
+VCC		-	3v3
+GD00		-	GPIO26
+CSN		-	GPIO27
+SCK		-	GPIO18
+MOSI		-	GPIO23
+MISO		-	GPIO19
+GD02		-	GPIO16
+_________________________________
+
+NRF24 PIN	-	ESP32 PIN
+---------------------------------
+# NRF 1      
+GND		-	GND
+VCC		-	3v3
+CE        	-	GPIO4
+CSN       	-	GPIO5
+SCK      	-	GPIO18
+MOSI     	-	GPIO23         
+MISO     	-	GPIO19
+IRQ    		-	//not use
+
+# NRF 2      
+GND		-	GND
+VCC		-	3v3
+CE        	-	GPIO16
+CSN       	-	GPIO17
+SCK      	-	GPIO18
+MOSI     	-	GPIO23         
+MISO     	-	GPIO19
+IRQ    		-	//not use
+
+# NRF 3      
+GND		-	GND
+VCC		-	3v3
+CE        	-	GPIO26
+CSN       	-	GPIO27
+SCK      	-	GPIO18
+MOSI     	-	GPIO23         
+MISO     	-	GPIO19
+IRQ    		-	//not use
