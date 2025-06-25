@@ -1642,7 +1642,7 @@ void runUI() {
 
 void wifiscanSetup() {
   
-  tft.setRotation(2);
+  tft.setRotation(0);
   tft.fillScreen(TFT_BLACK);
   tft.setTextColor(TFT_WHITE, TFT_BLACK);
   tft.setTextSize(1);
